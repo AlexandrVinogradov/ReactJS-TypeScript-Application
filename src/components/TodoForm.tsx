@@ -1,6 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
-export const TodoForm: React.FC = () => {
+interface TodoFormProps {
+    onAdd(title: string): void
+}
+
+export const TodoForm: React.FC<TodoFormProps> = props => {
 
     const [title, setTitle] = useState<string>('')
 
@@ -9,11 +13,10 @@ export const TodoForm: React.FC = () => {
     }
     const handleEnterClick = (e: React.KeyboardEvent) => {
         if(e.key === 'Enter') {
-            console.log(title);
+            props.onAdd(title);
             setTitle('')
         }
     }
-
     return <div className='input-field mt2'>
         <input
             onChange={handleChange}
