@@ -12,7 +12,7 @@ export const TodoForm: React.FC<TodoFormProps> = props => {
         setTitle(e.target.value)
     }
     const handleEnterClick = (e: React.KeyboardEvent) => {
-        if(e.key === 'Enter') {
+        if (e.key === 'Enter') {
             props.onAdd(title);
             setTitle('')
         }
