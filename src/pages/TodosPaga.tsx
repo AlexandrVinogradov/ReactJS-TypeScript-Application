@@ -49,6 +49,6 @@ export const TodosPage: React.FC = () => {
     <TodoList
       todos={todos}
       onRemove={removeHandler}
-      onToggle={toggleHandle} />\
+      onToggle={toggleHandle} />
     </>
 }
