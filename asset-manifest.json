@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactJS-TypeScript-Application/static/css/main.c3e2637e.chunk.css",
+    "main.js": "/ReactJS-TypeScript-Application/static/js/main.276d7b58.chunk.js",
+    "main.js.map": "/ReactJS-TypeScript-Application/static/js/main.276d7b58.chunk.js.map",
+    "runtime-main.js": "/ReactJS-TypeScript-Application/static/js/runtime-main.0e971213.js",
+    "runtime-main.js.map": "/ReactJS-TypeScript-Application/static/js/runtime-main.0e971213.js.map",
+    "static/js/2.9499339b.chunk.js": "/ReactJS-TypeScript-Application/static/js/2.9499339b.chunk.js",
+    "static/js/2.9499339b.chunk.js.map": "/ReactJS-TypeScript-Application/static/js/2.9499339b.chunk.js.map",
+    "index.html": "/ReactJS-TypeScript-Application/index.html",
+    "precache-manifest.90774f1f96d82cc89a0d1ecaec939464.js": "/ReactJS-TypeScript-Application/precache-manifest.90774f1f96d82cc89a0d1ecaec939464.js",
+    "service-worker.js": "/ReactJS-TypeScript-Application/service-worker.js",
+    "static/css/main.c3e2637e.chunk.css.map": "/ReactJS-TypeScript-Application/static/css/main.c3e2637e.chunk.css.map",
+    "static/js/2.9499339b.chunk.js.LICENSE": "/ReactJS-TypeScript-Application/static/js/2.9499339b.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e971213.js",
+    "static/js/2.9499339b.chunk.js",
+    "static/css/main.c3e2637e.chunk.css",
+    "static/js/main.276d7b58.chunk.js"
+  ]
+}
